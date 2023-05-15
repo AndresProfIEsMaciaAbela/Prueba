@@ -21,7 +21,12 @@
     <script>
         const btn_log=document.getElementsByClassName('login');
 
-        btn_log.addeventlistener('click',alert('hola'))
+        function hola()
+        {
+            alert('hola')
+        };
+
+        btn_log.addeventlistener('click',hola)
     </script>
 </body>
 </html>
