@@ -7,10 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="titulo">CONTROL DE TABLETS</h1>
+    <header class="cabecera">
+        <h1 class="titulo">CONTROL DE TABLETS</h1>
+        <div class="login">login</div>
+    </header>
+    
+
     <nav class="barra_nav">
         <div class="boton_nav">INICIO</div>
         <div class="boton_nav">CONTACTO</div>
     </nav>
+
+    <script>
+        const btn_log=document.getElementsByClassName('login');
+
+        function hola()
+        {
+            alert('hola')
+        };
+
+        btn_log.addEventListener('click',hola)
+    </script>
 </body>
 </html>
